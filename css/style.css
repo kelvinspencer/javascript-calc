@@ -1,0 +1,95 @@
+/**
+ *
+ * Dynamic Calc
+ * author: Kelvin Spencer
+*/
+
+body{
+	margin: 0;
+	background: #f4f4f4;
+}
+
+#container {
+	padding: 10px 0;
+	width: 100%;
+	position: relative;
+	
+}
+
+
+#calc{
+	margin: 0 auto;
+	width: 330px;
+	height: 500px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	background: #fff !important;
+}
+
+#display_cntr{
+	margin-top: 15px;
+
+	height: 100px;
+	width: 100%;	
+	padding: 10px;
+}
+
+#display{
+
+	background:#bad0c3;
+	height: 100px;
+	width: 92%;	
+	
+	font-family: 'Electrolize', sans-serif;
+    font-size: 90px;
+	
+	text-align:right;
+	
+	border: 1px solid #333;
+	border-radius: 10px;
+}
+
+.buttons{
+	padding: 10px;
+	width: 232px;
+	float: left;
+}
+
+.buttons.functions{
+	padding: 10px;
+	width: 75px;
+	float: left;
+	margin-left: -20px;
+	
+}
+
+.buttons.functions .button{
+	min-height: 25px;
+	min-width: 65px;
+	padding: 16px 0;
+}
+
+.button{
+	padding: 25px;
+	float: left;
+	border: 1px solid #333;
+	border-radius: 10px;	
+	min-width: 15px;
+	font-family: 'Electrolize', Roboto-Regular,helvetica,arial,sans-serif;
+    font-size: 20px;
+	text-align:center;
+	margin: 5px;
+	
+	background: #e8e8e8;
+	
+	-moz-user-select: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.button:hover{
+	box-shadow: 1px 1px 5px #ccc;
+	cursor: pointer;
+}
